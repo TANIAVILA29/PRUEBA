@@ -4,9 +4,7 @@ COMO usuario,
 QUIERO que en el refinanciamiento se recalcule al 18% el IGV de la ultima cuota,
 PARA que el cliente no me devuelva la factura con el IGV incorrecto,
 
-Rule: Solo podré recalcular el IGV si la poliza esta activa
-Rule: si al refinanciar el plan no tiene el concepto de intereses
-Rule: solo se realice el recalculo del IGV en la ultima cuota
+
 
 Background:
     Given Poliza esta activa
